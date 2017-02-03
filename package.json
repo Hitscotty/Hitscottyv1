@@ -1,0 +1,19 @@
+{
+  "name": "jonathan",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hitscotty/Hitscotty.github.io.git"
+  },
+  "author": "jonathan portorreal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hitscotty/Hitscotty.github.io/issues"
+  },
+  "homepage": "https://github.com/Hitscotty/Hitscotty.github.io#readme"
+}
