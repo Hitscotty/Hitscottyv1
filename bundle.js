@@ -9634,7 +9634,7 @@ var ProjectComponent = function (_Component) {
     value: function render() {
       return _react2.default.createElement(
         'section',
-        { className: 'wrapper style5' },
+        { className: 'projectView wrapper style5' },
         _react2.default.createElement(
           'div',
           { className: 'btn-group-wrap' },
@@ -9829,7 +9829,7 @@ exports = module.exports = __webpack_require__(86)();
 
 
 // module
-exports.push([module.i, ".btn-group-wrap {\n  text-align: center;\n}\n\ndiv.btn-group {\n  margin: -20px auto 50px;\n  text-align: center;\n  width: inherit;\n  display: inline-block;\n}\n\na {\n  float: left;\n}\n", ""]);
+exports.push([module.i, ".projectView>.btn-group-wrap {\n  text-align: center;\n  padding-top: 10;\n}\n\n.projectView>div.btn-group {\n  text-align: center;\n  width: inherit;\n  display: inline-block;\n}\n\n.projectView>div>div {\n  padding-bottom: 50px;\n}\n\n.projectView>a {\n  float: left;\n}\n", ""]);
 
 // exports
 
