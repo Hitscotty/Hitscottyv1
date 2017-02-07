@@ -1,248 +1,59 @@
 <!DOCTYPE HTML>
+<html lang="en">
 
-<html>
-	<head>
-		<title>Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/octicons/octicons.css">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Hitscotty </title>
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/octicons/octicons.css">
+	<link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
 
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body id="projects-table">
+<body id="projects-table">
+	<!-- Page Wrapper -->
+	<div id="section-wrapper">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="#page-wrapper" class="more scrolly">Projects</a></h1>
-						<nav id="nav">
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="#page-wrapper" class="more scrolly">Projects</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
 							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="personal.html">Personal Statement</a></li>
-											<li><a href="projects.html">Projects</a></li>
-											<li><a href="interests.html">About Me</a></li>
-                                                                                         <li><a href="/hitshaskell">Blog</a></li>
-										</ul>
-									</div>
-								</li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="personal.html">Personal Statement</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="interests.html">About Me</a></li>
+								<li><a href="/hitshaskell">Blog</a></li>
 							</ul>
-						</nav>
-					</header>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-				<!-- Main -->
-					<article id="main">
-						<header>
-							<h2>What have I worked on?</h2>
-						</header>
-					</article>
+		<!-- Main -->
+		<article id="main">
+			<header>
+				<h2>What have I worked on?</h2>
+			</header>
+		</article>
 
-						<!-- project location using tables -->
+		<section id="root" className="wrapper style5"></section>
+	</div>
 
-						<section id="datastructures" class="wrapper style5">
-							<center><h4>Data Structures</h4></center>
-							<div class="table-wrapper">
-								<table class="icons">
-									<thead>
-										<tr>
-											<th>Project</th>
-											<th>Description</th>
-											<th>GitHub</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Binary Search Tree</td>
-											<td>Implementing a BST on random data sets</td>
-											<td><a href="https://github.com/Hitscotty/Binary-Search-Tree" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-										</tbody>
-										<tfoot>
-										<tr>
-											<td>Sorting Algorithms</td>
-											<td>Testing different sorting algorithms and testing their speeds.</td>
-											<td><a href="https://github.com/Hitscotty/Sorting-Algorithms" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
+	<script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+</body>
 
-						<section id="internetprogramming" class="wrapper style4"></section>
-
-						<!-- table 2 -->
-
-						<section class="wrapper style5">
-							<center><h4>Internet Programming</h4></center>
-							<div class="table-wrapper">
-								<table class="icons">
-									<thead>
-										<tr>
-											<th>Project</th>
-											<th>Description</th>
-											<th>GitHub</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Networks</td>
-											<td>Created a Erydos-Renyi modeler in Python</td>
-											<td><a href="https://github.com/Hitscotty/Playing-With-Networks" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-										</tbody>
-										<tfoot>
-										<tr>
-											<td>Client-Server</td>
-											<td>using sockets and threads in Java to develop a GUI messenger</td>
-											<td><a href="https://github.com/Hitscotty/ClientServerMessenger" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section id="programmingmethods" class="wrapper style4"></section>
-
-						<!-- table 3 -->
-
-						<section class="wrapper style5">
-							<center><h4>Programming Methods</h4></center>
-							<div class="table-wrapper">
-								<table class="icons">
-									<thead>
-										<tr>
-											<th>Project</th>
-											<th>Description</th>
-											<th>GitHub</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Client-Server</td>
-											<td>using sockets and threads in Java to develop a GUI messenger</td>
-											<td><a href="https://github.com/Hitscotty/ClientServerMessenger" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-										</tbody>
-										<tfoot>
-										<tr>
-											<td>Matrix Calculator</td>
-											<td>Adding vectors,dot and cross products, matrix-vector multiplication</td>
-											<td><a href="https://github.com/Hitscotty/Matrix-Calculator" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-
-						<section id="vga" class="wrapper style4">
-
-						</section>
-
-
-						<section class="wrapper style5">
-							<center><h4>Video Game Programming</h4></center>
-							<div class="table-wrapper">
-								<table class="icons">
-									<thead>
-										<tr>
-											<th>Project</th>
-											<th>Description</th>
-											<th>GitHub</th>
-										</tr>
-									</thead>
-									<tfoot>
-										<tr>
-											<td>Animation</td>
-											<td>Created a video game using sprites from spriters-resource.com</td>
-											<td><a href="https://github.com/Hitscotty/Kafka" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-										</tfoot>
-										<tfoot>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section id="personal" class="wrapper style4"></section>
-
-						<!-- table 3 -->
-
-						<section class="wrapper style5">
-							<center><h4>Personal Projects</h4></center>
-							<div class="table-wrapper">
-								<table class="icons">
-									<thead>
-										<tr>
-											<th>Project</th>
-											<th>Description</th>
-											<th>GitHub</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Rubiks Cube</td>
-											<td>A program to assist in the creation and exploration of solving algorithm's</td>
-											<td><a href="https://github.com/Hitscotty/Rubiks-Cube-Algorithms" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-										<tr>
-											<td>Tic Tac Toe</td>
-											<td>Tic Tac Toe simulator program in Java using Swing</td>
-											<td><a href="https://github.com/Hitscotty/TicTacToe" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-										<tr>
-											<td>Etch Sketch</td>
-											<td>Created an Etch Sketch using CSS</td>
-											<td><a href="https://github.com/Hitscotty/Etch-A-Sketch" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-										<tr>
-											<td>Google Home Page</td>
-											<td>Created a replica of Google's HomePage using CSS/Html</td>
-											<td><a href="https://github.com/Hitscotty/Google-homepage" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-
-										</tbody>
-										<tfoot>
-										<tr>
-											<td>Number Theory</td>
-											<td>Using Haskell, created helper functions to aid in Vigenere Ciphers</td>
-											<td><a href="https://github.com/Hitscotty/numberTheory" class="mega-octicon octicon-mark-github"><span class="label"></span></a></td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="https://twitter.com/Hitscotty" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.instagram.com/hitscotty/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="mailto:Jportorreal77@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							<li><a href="https://github.com/Hitscotty" class="mega-octicon octicon-mark-github"><span class="label"></span></a></li>
-							<li><a href="https://hitscotty.wordpress.com" class="mega-octicon octicon-comment"><span class="label"></span></a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
